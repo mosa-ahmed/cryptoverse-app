@@ -74,15 +74,21 @@ a:hover{
     align-items: center;
 }
 
-@media screen and (max-width:1300px){
+@media screen and (min-width:1277px){
     .main{
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
 
-@media screen and (max-width:1170px){
+@media screen and (max-width:1276px){
     .main{
-        margin-left: 50px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .main{
+        margin-left: 55px;
     }
 }
 

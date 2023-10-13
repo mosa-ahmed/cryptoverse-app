@@ -35,7 +35,7 @@ async (coinId)=> {
 
 export const getCoinHistory = createAsyncThunk('cryptosSlice/getCoinHistory',
 async ({coinId,timePeriod})=> {
-    const {data} = await axios.get(`https://coinranking1.p.rapidapi.com/coin/${coinId}/history?timePeriod=${timePeriod}`,
+    const {data} = await axios.get(`https://coinranking1.p.rapidapi.com/coin/${coinId}/history?timeperiod=${timePeriod}`,
     {
         headers
     })
